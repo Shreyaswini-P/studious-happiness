@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+body
+{
+  background-image:url('../1.png');
+
+}
+
+body
+{
+  font-family:Verdana;
+}
+.header
+{
+    position:fixed;
+    background-color:black;
+    padding:15px;
+    text-align:center;
+    height: 180px ;
+    width: 100%;background-color: rgba(66, 191, 245);opacity:0.9;color:white;
+
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header h1
+{
+  font-family:sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.header a.active {
+  background-color: #eb7434;
+  color: white;
+}
+
+
+.header-right {
+  float: right;
+}
+
+.menu {
+  margin-top:180px;
+  padding: 0;
+  width:200px;
+  height: 100%;
+  text-align:center;
+  background: white;
+  position: fixed;
+background-color: rgba(66, 191, 245);opacity:0.9;color:white;
+}
+
+.menu a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu a.active {
+ background-color: red;
+ color: white;
+}
+
+
+.menus a:hover:not(.active) {
+ background-color: #555;
+ color: white;
+}
+
+.main {
+  position: fixed;
+  width:60%;
+  padding:0 20px;
+  margin-left: 200px;
+  margin-top: 180px;
+}
+
+
+.main .count h1
+{
+  font-family:sans-serif;
+  font-weight: lighter;
+  font-size: 2vw;
+
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+
+.count
+{
+  text-align: center;
+  margin-top: 15%;;
+  margin-left: 45%;;
+  margin-bottom: 15%;
+
+  width:20vw;
+  height: 30vh;
+  padding: 2%;
+
+}
+
+.count a
+{
+  text-decoration: none;
+  text-align: center;
+  color:black;
+}
+
+.count a:hover
+{
+  color: red;
+}
+
+.value
+{
+  color: red;
+}
+
+.footer
+{
+  background-color:#e5e5e5;
+  text-align:center;
+  position: fixed;
+  padding:10px;
+  left:0;
+  bottom: 0;
+  color: black;
+  width:100%;
+background-color: rgba(66, 191, 245);opacity:0.9;color:white;
+
+}
+
+.buttons
+{
+  margin-top: 4%;
+  margin-left: 50%;
+}
+
+
+
+.buttons button
+{
+  background:white;
+  color: black;
+  border:1px solid black;
+  border-color: black;
+  width: 200px;
+  padding:40px;
+  border-radius: 8%;
+ margin-left: 10%;
+
+  margin-top: 10%;
+
+
+}
+
+.buttons button:hover
+{
+    background-color: rgba(66, 191, 245);opacity:1;color:white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .right,.count {
+
+    width:30%;
+  }
+
+  .count
+  {
+    margin-left: -30%;
+    margin-top: 50%;
+  }
+}
